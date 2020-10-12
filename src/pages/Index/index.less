@@ -1,11 +1,42 @@
 .page{
     height: 100%;
-    width: 100px;
+    width: 100%;
 }
 .page-content{
-    width: 140px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 1000px;
 }
-.ignore-line{
-    height: 50px;
-    color: #ffffff;
+.search-wrap{
+    margin-left: 157px;
+    margin-right: 95px;
+    .search{
+        margin-top: 25px;
+    }
+    input{
+        border: 2px solid #ff4200;
+        box-sizing: border-box;
+        margin: 0;
+        outline: none;
+    }
+    input::placeholder{
+        color: #c4c4cc;
+        font-size: 14px;
+    }
+    .search-btn{
+        background-color: #ff4200;
+        color: #fff;
+    }
+}
+.search-result{
+    margin-top: 10px;
+    .item{
+        float: left;
+        margin: 0 12px 20px 0;
+        // width: 188px;
+        border: 1px solid #eee;
+        background: #fff;
+    }
 }

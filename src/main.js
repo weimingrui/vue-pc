@@ -2,7 +2,7 @@
  * @Author: Arthur
  * @Date: 2020-09-29 15:53:56
  * @LastEditors: Arthur
- * @LastEditTime: 2020-09-29 16:40:06
+ * @LastEditTime: 2020-10-02 13:03:32
  * @Description: file content
  */
 import Vue from 'vue'
@@ -14,6 +14,7 @@ import Antd from 'ant-design-vue';
 import { message } from 'ant-design-vue';
 
 // import '@/assets/style/mixin.scss'
+import '@/assets/style/common.scss'
 import 'ant-design-vue/dist/antd.css';
 
 Vue.config.productionTip = false

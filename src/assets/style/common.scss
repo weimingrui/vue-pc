@@ -11,3 +11,48 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+ul{
+    list-style-type: none;
+}
+.is-click{
+    cursor: pointer;
+}
+// flex layout start >>>
+.flex{ 
+    display: flex;
+}
+.flex-align{
+    display: flex;
+    align-items: center;
+}
+.flex-justifycontent{
+    display: flex;
+    justify-content: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+// flex layout end <<<
+// 居中显示
+.position-center{
+    position: absolute;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%,-50%);
+}
+.position-relative{
+    position: relative;
+}
+.float-left{
+    float: left;
+}

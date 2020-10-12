@@ -2,7 +2,7 @@
  * @Author: Arthur
  * @Date: 2020-09-29 15:53:56
  * @LastEditors: Arthur
- * @LastEditTime: 2020-09-29 16:32:56
+ * @LastEditTime: 2020-09-30 09:19:06
  * @Description: file content
 -->
 <template>
@@ -27,6 +27,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
